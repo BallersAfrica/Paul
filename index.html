@@ -41,30 +41,31 @@
   }
   
   .buttons {
-    display: flex;
-    justify-content: space-between;
-    width: 60%;
-    max-width: 600px;
-    margin-top: 20px;
-  }
-  
-  .visit-button,
-  .book-button {
-    padding: 10px 20px;
-    background-color: #444;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    text-decoration: none;
-  }
-  
-  .visit-button:hover,
-  .book-button:hover {
-    background-color: #666;
-  }
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  max-width: 600px;
+  margin-top: 20px;
+}
+
+.visit-button,
+.book-button {
+  padding: 10px 20px;
+  background-color: #444;
+  color: #fff;
+  border: none;
+  border-radius: 50%; /* Change border radius to make the buttons round */
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  text-decoration: none;
+}
+
+.visit-button:hover,
+.book-button:hover {
+  background-color: #666;
+}
+
 </style>
 </head>
 <body>
@@ -81,6 +82,6 @@
       <p>Phone: <a href="tel:+256785975771" style="text-decoration: none;">+256 785 975 771</a></p>
     </div>
     <div class="buttons">
-      <a href="http://www.ballers-africa.com" class="visit-button">View my work</a>
+      <a href="http://www.ballers-africa.com" class="visit-button">My work</a>
       <a href="mailto:pbakka23@gmail.com?subject=Appointment Booking" class="book-button">Book Appointment</a>
-    </
+    </div>
